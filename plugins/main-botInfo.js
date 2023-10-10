@@ -56,15 +56,15 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *ABHISHEK SURESH*
+  *𝓟𝓐𝓡𝓚-𝓙𝓘-𝓢𝓐𝓝𝓖*
 ▢ Instagram :
-  • https://instagram.com/abhishek_ser
+  • https://instagram.com/olajunior265
 ▢ GitHub :
-  • https://github.com/AbhishekSuresh2
+  • https://github.com/ola265
 ▢ Telegram : 
-  • https://t.me/Abhishek_Ser  
-▢ YouTube : 
-  • https://youtube.com/@comedymelodych8468
+  • https://t.me/parkjisang265  
+▢ Twitter : 
+  • https://twitter.com/park_jisang_
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
