@@ -23,11 +23,11 @@ Function(
         options.linkPreview = {
                renderLargerThumbnail: true,
                showAdAttribution: true,
-               title: "𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ",
+               title: "𝓟𝓐𝓡𝓚-𝓙𝓘-𝓢𝓐𝓝𝓖",
                body: "ᴄʟɪᴄᴋ ʜᴇʀᴇ 🦋 !!",
                mediaType: 1,
                thumbnail: thumb,
-               sourceUrl: "http://wa.me/919074692450?text=_៚ʜᴇʟʟᴏ+🪄_"
+               sourceUrl: "http://wa.me/2348095738664?text=_៚ʜᴇʟʟᴏ+🪄_"
              }
         // ADDED */ TO REMOVE LINK PREVIEW TYPE
         options.quoted = {
@@ -47,13 +47,13 @@ Function(
         
 let messages = await generateWAMessage(message.jid, { text: `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
 │       *「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」*
-│ *Name      :* 𝔸𝔹ℍ𝕀𝕊ℍ𝔼𝕂 𝕊𝕌ℝ𝔼𝕊ℍ
-│ *Place       :* 𝙺𝙴𝚁𝙰𝙻𝙰
+│ *Name      :* 𝓟𝓐𝓡𝓚-𝓙𝓘-𝓢𝓐𝓝𝓖
+│ *Place       :* NIGERIA 
 │ *Gender   :*  𝙼𝚊𝚕𝚎
-│ *Age          :* 15
-│ *Phone     :* wa.me/919074692450
-│ *IG ID        :* abhishek_ser
-│ *Status     :* _
+│ *Age          :* 17
+│ *Phone     :* wa.me/2348095738664
+│ *IG ID        :* olajunior265
+│ *Status     :* Single
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙`}, {quoted: message.quoted || ''})
 
 await message.client.forwardMessage(message.jid, await proto.WebMessageInfo.fromObject(messages), options)
